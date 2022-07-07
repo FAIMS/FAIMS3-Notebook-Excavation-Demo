@@ -31,7 +31,7 @@ references:
     type: software
     version: v0.5.667
     url: https://faims.edu.au
-title: "FAIMS3 Notebook {{template name}}"
+title: "FAIMS3 Excavation Demo Notebook"
 license:  CC-BY-4.0
 version: 0.0.1
 date-released: 2022-07-06

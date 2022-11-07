@@ -2342,13 +2342,13 @@
                                 []
                             },
                             {
-                                "name": "project-metadata-Attachment-Cut",
+                                "name": "Attachment-Cut",
                                 "type": "image",
                                 "children":
                                 []
                             },
                             {
-                                "name": "project-metadata-Attachment-Structure",
+                                "name": "Attachment-Structure",
                                 "type": "image",
                                 "children":
                                 []
@@ -2358,13 +2358,13 @@
                                 "children":
                                 [
                                     {
-                                        "name": "project-metadata-Attachment-Natural",
+                                        "name": "Attachment-Natural",
                                         "type": "image",
                                         "children":
                                         []
                                     },
                                     {
-                                        "name": "project-metadata-Attachment-Skeleton",
+                                        "name": "Attachment-Skeleton",
                                         "type": "image",
                                         "children":
                                         []
@@ -2372,7 +2372,7 @@
                                 ]
                             },
                             {
-                                "name": "project-metadata-Attachment-Deposit",
+                                "name": "Attachment-Deposit",
                                 "type": "image",
                                 "children":
                                 []

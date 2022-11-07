@@ -369,7 +369,7 @@
                     "name": "newfield8fcc1e09",
                     "id": "newfield8fcc1e09",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "num_digits": 5,
                     "form_id": "FORM1SECTION1",
                     "label": "ContextIDCounter"
@@ -788,7 +788,7 @@
                     "fullWidth": true,
                     "helperText": "Select or Add new Artefact record",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "related_type": "FORM2",
                     "relation_type": "faims-core::Child",
                     "InputProps":
@@ -811,9 +811,6 @@
                 [
                     [
                         "yup.string"
-                    ],
-                    [
-                        "yup.required"
                     ]
                 ],
                 "initialValue":
@@ -1195,7 +1192,7 @@
                     "fullWidth": true,
                     "helperText": "Select or Add new related record",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "related_type": "FORM3",
                     "relation_type": "faims-core::Child",
                     "InputProps":
@@ -1218,9 +1215,6 @@
                 [
                     [
                         "yup.string"
-                    ],
-                    [
-                        "yup.required"
                     ]
                 ],
                 "initialValue":
@@ -1323,9 +1317,7 @@
                         "include": false,
                         "label": "uncertainty"
                     }
-                },
-                "persistent": true,
-                "displayParent": true
+                }
             },
             "newfield050743df":
             {
@@ -1762,7 +1754,7 @@
                     "id": "newfielde65f6611",
                     "helperText": "",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "template": "{{newfield5305e3aa}}-{{newfield8fcc1e09}}",
                     "InputProps":
                     {
@@ -1782,9 +1774,6 @@
                 [
                     [
                         "yup.string"
-                    ],
-                    [
-                        "yup.required"
                     ]
                 ],
                 "initialValue": "",
@@ -1815,7 +1804,7 @@
                     "id": "hridFORM1",
                     "helperText": "",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "template": "{{newfield5305e3aa}}-{{newfield8fcc1e09}}",
                     "InputProps":
                     {
@@ -1836,9 +1825,6 @@
                 [
                     [
                         "yup.string"
-                    ],
-                    [
-                        "yup.required"
                     ]
                 ],
                 "initialValue": "",
@@ -1867,7 +1853,7 @@
                     "name": "newfield9a7ece6b",
                     "id": "newfield9a7ece6b",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "num_digits": 5,
                     "form_id": "FORM2SECTION1",
                     "label": "ArtefactIDCounter"
@@ -1876,9 +1862,6 @@
                 [
                     [
                         "yup.string"
-                    ],
-                    [
-                        "yup.required"
                     ]
                 ],
                 "initialValue": null,
@@ -1907,7 +1890,7 @@
                     "name": "newfield72402e1f",
                     "id": "newfield72402e1f",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "num_digits": 5,
                     "form_id": "FORM3SECTION1",
                     "label": "SampleIDCounter"
@@ -1916,9 +1899,6 @@
                 [
                     [
                         "yup.string"
-                    ],
-                    [
-                        "yup.required"
                     ]
                 ],
                 "initialValue": null,
